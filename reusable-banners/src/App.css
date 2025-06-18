@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+}
+.app-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+}
+.banner-card-list {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  padding-left: 0px;
+}
